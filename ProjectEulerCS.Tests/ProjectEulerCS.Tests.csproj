@@ -8,6 +8,8 @@
     <IsPackable>false</IsPackable>
 
     <RootNamespace>PendleCodeMonkey.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

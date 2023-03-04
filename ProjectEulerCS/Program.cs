@@ -29,6 +29,22 @@ Console.WriteLine("Problem 022 - " + Problem22.Solve().ToString());
 Console.WriteLine("Problem 023 - " + Problem23.Solve().ToString());
 Console.WriteLine("Problem 024 - " + Problem24.Solve().ToString());
 Console.WriteLine("Problem 025 - " + Problem25.Solve().ToString());
+Console.WriteLine("Problem 026 - " + Problem26.Solve().ToString());
+Console.WriteLine("Problem 027 - " + Problem27.Solve().ToString());
+Console.WriteLine("Problem 028 - " + Problem28.Solve().ToString());
+Console.WriteLine("Problem 029 - " + Problem29.Solve().ToString());
+Console.WriteLine("Problem 030 - " + Problem30.Solve().ToString());
+Console.WriteLine("Problem 031 - " + Problem31.Solve().ToString());
+Console.WriteLine("Problem 032 - " + Problem32.Solve().ToString());
+Console.WriteLine("Problem 033 - " + Problem33.Solve().ToString());
+Console.WriteLine("Problem 034 - " + Problem34.Solve().ToString());
+Console.WriteLine("Problem 035 - " + Problem35.Solve().ToString());
+Console.WriteLine("Problem 036 - " + Problem36.Solve().ToString());
+Console.WriteLine("Problem 037 - " + Problem37.Solve().ToString());
+Console.WriteLine("Problem 038 - " + Problem38.Solve().ToString());
+Console.WriteLine("Problem 039 - " + Problem39.Solve().ToString());
+Console.WriteLine("Problem 040 - " + Problem40.Solve().ToString());
+
 
 Console.WriteLine();
 Console.WriteLine("All done!   Press any key.");

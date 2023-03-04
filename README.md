@@ -38,4 +38,5 @@ Alternatively, load the solution into Visual Studio 2022 and run the tests.
 | Version | Details
 |---:| ---
 | 1.0.0 | Solutions to problems 1 to 25.
+| 1.0.1 | Solutions to problems 26 to 40.
 
