@@ -44,7 +44,16 @@ Console.WriteLine("Problem 037 - " + Problem37.Solve().ToString());
 Console.WriteLine("Problem 038 - " + Problem38.Solve().ToString());
 Console.WriteLine("Problem 039 - " + Problem39.Solve().ToString());
 Console.WriteLine("Problem 040 - " + Problem40.Solve().ToString());
-
+Console.WriteLine("Problem 041 - " + Problem41.Solve().ToString());
+Console.WriteLine("Problem 042 - " + Problem42.Solve().ToString());
+Console.WriteLine("Problem 043 - " + Problem43.Solve().ToString());
+Console.WriteLine("Problem 044 - " + Problem44.Solve().ToString());
+Console.WriteLine("Problem 045 - " + Problem45.Solve().ToString());
+Console.WriteLine("Problem 046 - " + Problem46.Solve().ToString());
+Console.WriteLine("Problem 047 - " + Problem47.Solve().ToString());
+Console.WriteLine("Problem 048 - " + Problem48.Solve().ToString());
+Console.WriteLine("Problem 049 - " + Problem49.Solve().ToString());
+Console.WriteLine("Problem 050 - " + Problem50.Solve().ToString());
 
 Console.WriteLine();
 Console.WriteLine("All done!   Press any key.");

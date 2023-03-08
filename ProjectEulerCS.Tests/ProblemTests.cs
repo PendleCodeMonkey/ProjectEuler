@@ -328,5 +328,89 @@ namespace PendleCodeMonkey.ProjectEulerCS.Tests
 			Assert.Equal(210, result);
 		}
 
+		[Fact]
+		public void Problem41Test()
+		{
+			int result = Problem41.Solve();
+
+			Assert.Equal(7652413, result);
+		}
+
+		[Fact]
+		public void Problem42Test()
+		{
+			int result = Problem42.Solve();
+
+			Assert.Equal(162, result);
+		}
+
+		[Fact]
+		public void Problem43Test()
+		{
+			long result = Problem43.Solve();		// Uses brute force method
+			long result2 = Problem43.Solve2();		// Uses deductions to reduce the number of possibilities (to avoid using brute force)
+
+			Assert.Equal(16695334890, result);
+			Assert.Equal(16695334890, result2);
+		}
+
+		[Fact]
+		public void Problem44Test()
+		{
+			long result = Problem44.Solve();        // Makes an assumption about the limit of the number of pentagonal numbers that need to be pre-calculated.
+			long result2 = Problem44.Solve2();      // An alternative solution that makes no such assumption.
+
+			Assert.Equal(5482660, result);
+			Assert.Equal(5482660, result2);
+		}
+
+		[Fact]
+		public void Problem45Test()
+		{
+			long result = Problem45.Solve();
+
+			Assert.Equal(1533776805, result);
+		}
+
+		[Fact]
+		public void Problem46Test()
+		{
+			long result = Problem46.Solve();
+
+			Assert.Equal(5777, result);
+		}
+
+		[Fact]
+		public void Problem47Test()
+		{
+			long result = Problem47.Solve();
+
+			Assert.Equal(134043, result);
+		}
+
+		[Fact]
+		public void Problem48Test()
+		{
+			string result = Problem48.Solve();
+
+			Assert.Equal("9110846700", result);
+		}
+
+		[Fact]
+		public void Problem49Test()
+		{
+			string result = Problem49.Solve();
+
+			Assert.Equal("296962999629", result);
+		}
+
+		[Fact]
+		public void Problem50Test()
+		{
+			long result = Problem50.Solve();
+
+			Assert.Equal(997651, result);
+		}
+
 	}
 }
