@@ -40,4 +40,4 @@ Alternatively, load the solution into Visual Studio 2022 and run the tests.
 | 1.0.0 | Solutions to problems 1 to 25.
 | 1.0.1 | Solutions to problems 26 to 40.
 | 1.0.2 | Solutions to problems 41 to 50.
-
+| 1.0.3 | Solutions to problems 51 to 60. Added code to time the execution of the problems.
