@@ -1,5 +1,3 @@
-using PendleCodeMonkey.ProjectEulerCS;
-
 namespace PendleCodeMonkey.ProjectEulerCS.Tests
 {
 	public class ProblemTests
@@ -24,7 +22,7 @@ namespace PendleCodeMonkey.ProjectEulerCS.Tests
 		public void Problem3Test()
 		{
 			long result = Problem3.Solve();
-			long result2 = Problem3.Solve2();		// Uses an alternative algorithm for calculating the prime factors.
+			long result2 = Problem3.Solve2();       // Uses an alternative algorithm for calculating the prime factors.
 
 			Assert.Equal(6857, result);
 			Assert.Equal(6857, result2);
@@ -194,7 +192,7 @@ namespace PendleCodeMonkey.ProjectEulerCS.Tests
 		public void Problem24Test()
 		{
 			string result = Problem24.Solve();
-			string result2 = Problem24.Solve2();		// Uses an alternative approach to solving the problem.
+			string result2 = Problem24.Solve2();        // Uses an alternative approach to solving the problem.
 
 			Assert.Equal("2783915460", result);
 			Assert.Equal("2783915460", result2);
@@ -347,8 +345,8 @@ namespace PendleCodeMonkey.ProjectEulerCS.Tests
 		[Fact]
 		public void Problem43Test()
 		{
-			long result = Problem43.Solve();		// Uses brute force method
-			long result2 = Problem43.Solve2();		// Uses deductions to reduce the number of possibilities (to avoid using brute force)
+			long result = Problem43.Solve();        // Uses brute force method
+			long result2 = Problem43.Solve2();      // Uses deductions to reduce the number of possibilities (to avoid using brute force)
 
 			Assert.Equal(16695334890, result);
 			Assert.Equal(16695334890, result2);
@@ -490,6 +488,88 @@ namespace PendleCodeMonkey.ProjectEulerCS.Tests
 			long result = Problem60.Solve();
 
 			Assert.Equal(26033, result);
+		}
+
+		[Fact]
+		public void Problem61Test()
+		{
+			int result = Problem61.Solve();
+
+			Assert.Equal(28684, result);
+		}
+
+		[Fact]
+		public void Problem62Test()
+		{
+			long result = Problem62.Solve();
+
+			Assert.Equal(127035954683, result);
+		}
+
+		[Fact]
+		public void Problem63Test()
+		{
+			int result = Problem63.Solve();
+			int result2 = Problem63.Solve2();		// Using an alternative solution
+
+			Assert.Equal(49, result);
+			Assert.Equal(49, result2);
+		}
+
+		[Fact]
+		public void Problem64Test()
+		{
+			int result = Problem64.Solve();
+
+			Assert.Equal(1322, result);
+		}
+
+		[Fact]
+		public void Problem65Test()
+		{
+			int result = Problem65.Solve();
+
+			Assert.Equal(272, result);
+		}
+
+		[Fact]
+		public void Problem66Test()
+		{
+			int result = Problem66.Solve();
+
+			Assert.Equal(661, result);
+		}
+
+		[Fact]
+		public void Problem67Test()
+		{
+			int result = Problem67.Solve();
+
+			Assert.Equal(7273, result);
+		}
+
+		[Fact]
+		public void Problem68Test()
+		{
+			string result = Problem68.Solve();
+
+			Assert.Equal("6531031914842725", result);
+		}
+
+		[Fact]
+		public void Problem69Test()
+		{
+			int result = Problem69.Solve();
+
+			Assert.Equal(510510, result);
+		}
+
+		[Fact]
+		public void Problem70Test()
+		{
+			int result = Problem70.Solve();
+
+			Assert.Equal(8319823, result);
 		}
 
 	}

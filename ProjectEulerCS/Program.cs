@@ -65,6 +65,16 @@ RunAndTimeOperation(Problem57.Solve, 57);
 RunAndTimeOperation(Problem58.Solve, 58);
 RunAndTimeOperation(Problem59.Solve, 59);
 RunAndTimeOperation(Problem60.Solve, 60);
+RunAndTimeOperation(Problem61.Solve, 61);
+RunAndTimeOperation(Problem62.Solve, 62);
+RunAndTimeOperation(Problem63.Solve, 63);
+RunAndTimeOperation(Problem64.Solve, 64);
+RunAndTimeOperation(Problem65.Solve, 65);
+RunAndTimeOperation(Problem66.Solve, 66);
+RunAndTimeOperation(Problem67.Solve, 67);
+RunAndTimeOperation(Problem68.Solve, 68);
+RunAndTimeOperation(Problem69.Solve, 69);
+RunAndTimeOperation(Problem70.Solve, 70);
 
 
 Console.WriteLine();

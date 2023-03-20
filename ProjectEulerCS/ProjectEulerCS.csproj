@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>PendleCodeMonkey.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +14,7 @@
     <None Remove="Resources\p042_words.txt" />
     <None Remove="Resources\p054_poker.txt" />
     <None Remove="Resources\p059_cipher.txt" />
+    <None Remove="Resources\p067_triangle.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +28,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\p059_cipher.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\p067_triangle.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
