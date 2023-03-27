@@ -572,5 +572,47 @@ namespace PendleCodeMonkey.ProjectEulerCS.Tests
 			Assert.Equal(8319823, result);
 		}
 
+		[Fact]
+		public void Problem71Test()
+		{
+			int result = Problem71.Solve();
+			int result2 = Problem71.Solve2();		// An alternative solution
+
+			Assert.Equal(428570, result);
+			Assert.Equal(428570, result2);
+		}
+
+		[Fact]
+		public void Problem72Test()
+		{
+			long result = Problem72.Solve();
+
+			Assert.Equal(303963552391, result);
+		}
+
+		[Fact]
+		public void Problem73Test()
+		{
+			int result = Problem73.Solve();
+
+			Assert.Equal(7295372, result);
+		}
+
+		[Fact]
+		public void Problem74Test()
+		{
+			int result = Problem74.Solve();
+
+			Assert.Equal(402, result);
+		}
+
+		[Fact]
+		public void Problem75Test()
+		{
+			int result = Problem75.Solve();
+
+			Assert.Equal(161667, result);
+		}
+
 	}
 }
